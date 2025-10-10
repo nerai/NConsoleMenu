@@ -93,9 +93,6 @@ namespace NConsoleMenu.DefaultItems
 				}
 				OnWriteLine (ab.Key);
 			}
-			if (!inner) {
-				OnWriteLine ("Type \"help <command>\" for individual command help.");
-			}
 		}
 	}
 }
